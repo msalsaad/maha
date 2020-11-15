@@ -1,1 +1,10 @@
+{% assign without-image = nil %}
+{% if post.image %} {% else %} {% assign without-image = 'article-without-image' %} {% endif %}
+{% if post.tags.size >= 1 %}
+{% for tag in post.tags %} {{ tag }} {% endfor %}
+{% else %} {% endif %}
+{{post.title}}
+{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}
 
+{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}
+Keep Reading
