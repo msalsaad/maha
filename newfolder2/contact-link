@@ -1,6 +1,0 @@
-{% if site.data.settings.twitter %}
-{% else %} {% endif %} {% if site.data.settings.facebook %}
-{% else %} {% endif %} {% if site.data.settings.dribbble %}
-{% else %} {% endif %} {% if site.data.settings.instagram %}
-{% else %} {% endif %} {% if site.data.settings.pinterest %}
-{% else %} {% endif %}
