@@ -10,3 +10,5 @@
 Keep Reading
 
 
+{% include pagination.html %}
+
