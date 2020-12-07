@@ -1,4 +1,4 @@
-Zolan - Modern & Minimal Theme for Jekyll
+maha 123456
 ======
 Zolan is a minimal blog theme for Jekyll.
 
