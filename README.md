@@ -1,7 +1,6 @@
-maha 123456
+Maha Alsaad
 ======
-Zolan is a minimal blog theme for Jekyll.
-
+Information Specialist
 * * *
 
 Table of Contents
